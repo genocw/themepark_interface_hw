@@ -15,7 +15,8 @@ public class RollercoasterTest {
         rollercaoster = new Rollercoaster("Rolly");
     }
 
-//    Inherited tests
+//    Inherited things tests
+
     @Test
     public void canGetName() {
         assertEquals("Rolly", rollercaoster.getName());
@@ -27,6 +28,7 @@ public class RollercoasterTest {
     }
 
 //    Rollercoaster tests
+
     @Test
     public void visitorAllowedIfMeetsRequirements() {
         visitor = new Visitor(12, 150, 100);
