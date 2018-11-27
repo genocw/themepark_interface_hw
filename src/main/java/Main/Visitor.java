@@ -12,4 +12,15 @@ public class Visitor {
         this.money = money;
     }
 
+    public int getAge() {
+        return age;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public double getMoney() {
+        return money;
+    }
 }
